@@ -1,0 +1,9 @@
+# Enable the RewriteEngine.
+RewriteEngine On
+
+# When the HTTP request doesn't match and existing file 
+# or directory, Rewrite the request and send it to the 
+# index.php file
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]

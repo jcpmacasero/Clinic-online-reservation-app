@@ -1,0 +1,1066 @@
+p {
+	font-family: Raleway;
+}
+#myFileInput {
+    display:none;
+}
+.input-marg {
+	margin-bottom: 7px;
+	font-family: Raleway;
+}
+.profile-header {
+	background-color: #FFA500;
+	height: 70px;
+}
+.clinic-header {
+	background-color: #92dceb;
+	height: 74px;
+	width: 100%;
+}
+.records-header {
+	background: #fdfefd;
+	height: 74px;
+	width: 100%;
+}
+.chat-header {
+	background: #d2ebe6;
+	height: 74px;
+	width: 100%;
+}
+.create-acct {
+	background-color: #FFFF00;
+	height: 70px;
+}
+.reports-head {
+	background: #fff176;
+	height: 74px;
+	width: 100%;
+}
+
+.page-header {
+	 border-bottom: 0px solid #eee;
+}
+
+.img-container {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.profile-picture {
+	width: 162px;
+	height: 162px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 5%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.clinic-p {
+	margin-top: 3%;
+}
+.clinic-p p{
+	font-size: 15px;
+	text-align: justify;
+}
+.clinic-p h4{
+	font-weight: bold;
+}
+
+.img-patient {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	text-align: right;
+}
+.patient-pic {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 50%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.clinic-info-content {	
+	border:1px solid black;
+	min-height: 380px;
+}
+#clinicID {
+	color:red;
+	font-size: 20px;
+}
+.patientinfo {
+	text-align: right;
+	font-size: 15px;
+}
+.pic-pat-info {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+.mypatient-pic img {
+	width: 200px;
+	height:auto;
+}
+.docnote {
+	width: 558px;
+	resize:none;
+	margin-bottom: 25px;
+	border-radius: 4px !important;
+}
+.red {
+	color:red;
+}
+.doc-input {
+	margin-top: 25px;
+}
+.btnfin {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+#checkID {
+	visibility: hidden;
+}
+
+/* search-box */
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-box {
+	padding-top: 45px;
+}
+.editprofile {
+	padding-top: 45px;
+}
+.bgprof {
+	background-color: #fff;
+}
+.prof-footer {
+	background-color: #d9edf7;
+}
+.certheader {
+    margin: 0 0 -3px;
+}
+.medcert {
+	font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.rmedcert {
+	font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.border {
+	border:1px solid black;
+}
+#generate_cert .modal-dialog  {
+	width:1000px;
+}
+.certmarg {
+	padding-left: 25px;
+}
+.header-cert {
+	padding-top: 25px;
+}
+.startindent {
+	padding-left: 60px	;
+}
+#bill_change {
+	color:red;
+}
+#sukli {
+	visibility: hidden;
+}
+.searchres {
+	margin-top: 25px;
+}
+.search-details {
+	margin-top: 15px;
+	margin-right: 15px;
+}
+.search-details p {
+	font-size: 16px;
+	margin-right: 18px;
+	text-align: justify;
+}
+#view_profile .modal-dialog {
+	width:700px;
+}
+.profile_pat {
+	border:1px solid black;
+}
+.view_prof {
+	text-align: left;
+	font-size: 15px;
+}
+.moveleft label{
+	margin-left: -30px;
+}
+#check_my_date {
+	color:red;
+}
+.dochist {
+	width: 505px;
+	resize:none;
+	margin-bottom: 15px;
+	margin-left: -30px;
+}
+.titlesig {
+	text-align: left;
+	margin-left: 0px;
+}
+#cert_name {
+	text-transform: uppercase;
+}
+#cert_diagnosis {
+	text-decoration: underline;
+}
+#cert_physician {
+	text-transform: uppercase;
+}
+#cert_physician_sig {
+	text-decoration: underline;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#clinic_id {
+	font-size: 14px;
+	color:red;
+}
+#diagnose {
+	font-weight: 700;
+	font-size: 28px;
+}
+#queue {
+	font-weight: 700;
+	font-size: 28px;	
+}
+#earn {
+	font-weight: 500;
+	font-size: 28px;
+}
+.admin-create {
+	margin-top: 70px;
+}
+.wborder {
+	border:1px solid black;
+	min-height: 100px;
+}
+.gm-controllers {
+	padding-top: 8px;
+}
+.reports-create {
+	padding-top: 10px;
+}
+.repotsp {
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+.boxreg {
+	margin-top: 4%;
+	border:1px solid black;
+	min-height: 300px;
+	margin-bottom: 5%;
+}
+.profile-picpatient {
+	width: 202px;
+	height: 172px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 4%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.patientdet {
+	margin-top: 4%;
+}
+.mybutton {
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+.addnewpatient {
+	margin-top: 3%;
+}
+.panel-success > .panel-heading {
+    color: #000;
+    background-color: #38FB38;
+    border-color: #d6e9c6;
+}
+.panel-success a{
+	color:#000;
+}
+.regpat-footer {
+	background-color: #38FB38;
+}
+.patientform {
+	margin-top: 2%;
+}
+.mydata {
+	margin-top: 4%;
+}
+.profile-picpatient {
+	width: 192px;
+	height: 152px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 4%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btnmarg {
+	margin-top: 2%;
+}
+.marginegative {
+	margin-left: -45px;
+}
+.showhide{
+	margin-top: 3%;
+}
+.moveup {
+	margin-top: -2%;
+}
+.connectwith {
+	text-align: center;
+}
+body{
+    color: #888888;
+    font-family: 'Bree Serif',serif;
+    font-size: 16px;
+    min-height: 2000px;
+}
+
+.login_modal_footer{margin-top:5px;}
+.login_modal_header .modal-title {text-align: center;font-family:'Philosopher',sans-serif; }
+.form-group{position: relative;}
+.form-group .login-field-icon {
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    transition: all 0.25s ease 0s;
+    padding-top: 2%;
+}
+.login-modal{
+    width:100%;
+    padding-bottom:20px;
+}
+.login_modal_header, .login_modal_footer {background: #00BB64 !important;color:#fff;}
+.modal-register-btn{margin: 4% 33% 2% 33% ;width:100%;}
+.login-modal input{height:40px; box-shadow: none; border:1px solid #ddd;}
+.modal-body-left{float:left; width:50%; padding-right:4%; border-right:4px solid #ddd;}
+.modal-body-right{float:right; width:47%;}
+.login-link{padding:0 20%;}
+.modal-social-icons{padding:0 10%;}
+.facebook, .twitter, .google, .linkedin {width:100%;height:40px; padding-top:2%; margin-top:2%;}
+.modal-icons{margin-left: -10px; margin-right: 20px;}
+.google, .google:hover{background-color:#dd4b39;border:2px solid #dd4b39;color:#fff;}
+.twitter, .twitter:hover{ background-color: #00aced; border:2px solid #00aced;color: #fff;}
+.facebook, .facebook:hover{background-color: #3b5999; border:2px solid #3b5999;color:#fff;}
+.linkedin, .linkedin:hover{background-color: #007bb6; border: 2px solid #007bb6; color:#fff;}
+#social-icons-conatainer{position: relative;}
+#center-line{position: absolute;  right: 265.7px;top: 80px;background:#ddd;  border: 4px solid #DDDDDD;border-radius: 20px;}
+.modal-login-btn{width:100%;height:40px; margin-bottom:10px;}
+#modal-launcher{margin: 30% 0 0 30%; }
+h1{border-bottom:5px solid #00BB64;}
+.profile-picclinic {
+	width: 192px;
+	height: 192px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 4%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#clinic_address,#city_name,#province_name,#zipcode label {
+    font-weight: normal !important;
+}
+.cliniclogo {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	text-align: left;
+	border-radius: 50%;
+	margin: 30px auto;
+	margin-left: 50px;
+	background-position: left left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.rcliniclogo {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	text-align: left;
+	border-radius: 50%;
+	margin: 30px auto;
+	margin-left: 50px;
+	background-position: left left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.receiptno {
+	font-size: 16px;
+	margin-left: 5%;
+}
+#rno {
+	color:red;
+	font-size: 18px;
+}
+.recieve {
+	font-size: 16px;
+	margin-left: 5%;
+}
+.margrec {
+	margin-top: 4%;
+}
+.rdate {
+	margin-left: 30px;
+}
+#rpatient {
+	text-decoration: underline;
+}
+#ramtwords {
+	text-decoration: underline;
+}
+.totalmt {
+	font-size: 15px;
+	margin-left: 5%;
+}
+#totalamt {
+	border: 1px solid;
+}
+.underline {
+	text-decoration: underline;
+	content: "\00a0\00a0\00a0\00a0";
+}
+/*#printmeor {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}*/
+#histprint {
+	margin-top: 3%;
+}
+small {
+    font-size: 50%;
+}
+#assigndocs {
+	visibility: hidden;
+}
+.mychat {
+	margin-top: 4%;
+}
+.chatonline {
+	border-left: 1px solid #333;
+}
+.imgchat-picture {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 50%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: static;
+}
+.timechat {
+	margin-left: 10px;
+}
+#mychatbox {
+    max-height: 300px;
+    min-width: 300px;
+    overflow-y: scroll;
+}
+.margminus {
+	margin-left: -140px;
+	margin-top: 1%;
+}
+.dataTable_report {
+	margin-top: 1%;
+}
+#modalreport .modal-dialog  {
+	width:900px;
+	max-height: 350px;
+}
+#modalreportearnings .modal-dialog  {
+	width:900px;
+	max-height: 350px;
+}
+#eatotal {
+	margin-right: 5%;
+}
+#reportadmin .modal-dialog  {
+	width:900px;
+	max-height: 350px;
+}
+.customrep {
+	margin-top: 4%;
+
+}
+.forprint{
+	margin-top: 2%;
+	border: 1px solid;
+}
+.clicked_patient_pic {
+	position: absolute;
+	top:-5px;
+	left: 350px;
+	width: 122px;
+	height: 122px;
+	overflow: hidden;
+	text-align: right;
+	border-radius: 50%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:1px solid black;
+}
+.clicked_patient_pic_hist {
+	position: absolute;
+	top:-5px;
+	left: 115px;
+	width: 122px;
+	height: 122px;
+	overflow: hidden;
+	text-align: right;
+	border-radius: 50%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:1px solid black;
+}
+.clicked_patient_pic_sec {
+	width: 122px;
+	height: 122px;
+	overflow: hidden;
+	text-align: right;
+	border-radius: 50%;
+	margin: 20px auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:1px solid black;
+}
+.btn-custom-login {
+	background:#617c91;
+	color:#fff;
+	height: 30px;
+	width: 130px;
+	border-radius: 0px;
+	font-family: Raleway;
+	margin-bottom: 3px;
+}
+.login-custom-p {
+	margin-top: -3px;
+	font-family: Raleway;
+	font-size: 14px;
+	color: #fff;
+}
+.login-custom-p:hover {
+	text-decoration: underline;
+}
+.clinic-logo {
+	width: 57px;
+	height: 53px;
+	overflow: hidden;
+	text-align: left;
+	margin: -5px auto;
+	margin-left: 5px;
+	background-position: left left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.login-msg-sign {
+	text-align: right;
+	font-family: Raleway;
+	font-size: 13px;
+	color:#fff;
+	margin: 0px 5px;
+}
+.custom-color {
+	color: #d2ebe6;
+	font-size: 23px;
+	margin: 24px 10px 10px 10px;
+}
+.topheaderlogo {
+	width: 42px;
+	height: auto;
+	margin: -35px 6px -19px 10px;
+}
+.userFullname {
+	margin: 10px 10px 10px 10px;
+}
+.lioverview {
+	background: #bef17b;
+	color: #505c42;
+	font-size: 18px;
+}
+.liclinics {
+	background: #92dceb;
+	color: #373737;
+	font-size: 18px;
+}
+.lipatientrec {
+	background: #fdfefd;
+	color: #373737;
+	font-size: 18px;
+}
+.lichat {
+	background: #d2ebe6;
+	color: #6d7775;
+	font-size: 18px;
+}
+.lireports {
+	background: #fff176;
+	color: #373737;
+	font-size: 18px;
+}
+.custom-font-color {
+	color: #373737;
+	margin: 14px 3px;
+}
+.userPosition {
+	position: absolute;
+	bottom: 0;
+	top: 66px;
+	right: 69px;
+	color: #dbe0e3;
+}
+.dashboard-header {
+	height: 75px;
+	background: #bef17b;
+}
+.dashboard-p {
+	position: absolute;
+	margin: 29px 16px 14px 17px;
+	font-size: 28px;
+	margin-top: 37px;
+	color: #373737;
+}
+.records-p {
+	color: #373737;
+	font-size: 28px;
+}
+.clinichead-p {
+	height: 75px;
+	background: #92dceb;
+}
+.search-head-p {
+	height: 75px;
+	background: #fdfefd;
+}
+.clinic-chat-p {
+	height: 75px;
+	background: #d2ebe6;
+}
+.reports-head-p {
+	height: 75px;
+	background: #fff176;
+}
+.withbg {
+	height: 30px;
+	background: #617c91;
+	margin: 11px auto;
+}
+.datenow {
+	color: #fefefe;
+	margin: 3px 14px;
+}
+.info-queues {
+	background: #bef17b;
+	min-height: 244px;
+	color: #373737;
+}
+.info-calendar {
+	/*background: #bef17b; */
+	min-height: 244px;
+}
+.dow {
+	background: #617c91 !important;
+	color: #fdfdfe !important;
+	border-radius: 0px !important;
+}
+.info-fees {
+	background: #fff176;
+	min-height: 244px;
+	color: #373737;
+}
+.info-total {
+	background: #d2ebe6;
+	min-height: 244px;	
+	color: #373737;
+}
+.belowdash {
+	margin-top: 1%;
+}
+.custom-drop {
+	position: absolute;
+	min-width: 105px;
+	z-index: 50000;
+}
+.frontview {
+	z-index: 99000;
+	position: relative;
+}
+.info-header {
+	font-size: 28px;
+	padding: 7px;
+}
+.secmargincustom {
+	padding: 0px 8px 23px 12px !important;
+}
+.mydrop-online {
+	position: absolute;
+	margin: 48px 10px 10px 97px;
+	z-index: 1000;
+	font-size: 13px;
+	color: #fff;
+}
+.mydrop-online a {
+	color: #fff;
+}
+#doc-color {
+	background: #02c7ad !important;
+}
+#sec-color {
+	background: #e8b03f !important;
+}
+.queuelist {
+	margin-left: 3%;
+}
+.total-list {
+	font-size: 36px;
+	margin: 0px 10px 10px 169px;
+}
+#docreport-content {
+	margin-top: -5px;
+}
+.checkmybox {
+	margin-top: 3%;
+}
+.viewprintpos{
+	margin-top: 4%;
+	margin-left: 8%;
+}
+#hidefirst {
+	visibility: hidden;
+}
+#report_transactions .modal-dialog  {
+	width:900px;
+}
+.table_transactions {
+	margin-top: 3%;
+}
+#mytransactions th {
+	font-size: 14px;
+}
+.bgsidebarmodal {
+	background: #DCDCDC;
+}
+.margbottonsidebar {
+	margin-bottom: 5%;
+}
+#dataTables-secretary th {
+	font-size: 12px;
+}
+.closered {
+	color:red;
+}
+.openblue {
+	color:blue;
+}
+.logincircle {
+	display: inline-block;
+    padding: 0;
+    font-size: 12px;
+    font-weight: lighter !important;
+    line-height: 32px;
+    color: #fff !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #f63e28;
+    border-radius:50px;
+    position: relative;
+    top: -3px;
+    height: 31px;
+    width: 31px;
+}
+.logincirclefacebook {
+	display: inline-block;
+    padding: 0;
+    font-size: 12px;
+    font-weight: lighter !important;
+    line-height: 32px;
+    color: #fff !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #3B5998;
+    border-radius:50px;
+    position: relative;
+    top: -3px;
+    height: 31px;
+    width: 31px;
+    margin: 0px 5px 0px 0px;
+}
+.social-log {
+	margin: 23px 1px 26px 15px;
+}
+.or-reprint {
+	margin-top: 2%;
+}
+#custom-report {
+	display: none;
+}
+#daily-report {
+	display: none;
+}
+#printmediv {
+    display: none;
+}
+.modal-body #display {
+  display:none;
+  visibility:hidden;
+}
+#printmeee {
+    display: none;
+}
+#table_transactions {
+	display: none;
+}
+#thecliniclogo {
+	display: none;
+}
+#orthecliniclogo {
+	display: none;
+}
+.headerforprint {
+	display: none;
+}
+#thepatientweight, #thepatientheight {
+	font-size: 12px;
+	display:none;
+}
+#importantheight, #importantweight {
+	color:red;
+}
+.settings-gear {
+	margin-top: 31px;
+    position: absolute;
+    margin-left: -33px;
+}
+span.error {
+	color:red;
+	font-size: 10px;
+	font-style: italic;
+}
+.diagbtn {
+	margin-top: -120px;
+	margin-left: 141px;
+	position: absolute;
+}
+.sidebar-menu {
+	list-style-type: none;
+}
+#labelcheck-up {
+	text-align: left;
+	font-size: 14px;
+}
+.diagnote {
+	width:580% !important;
+}
+.patient-face {
+	position: relative;
+	left: 3%;	
+	z-index: 999;		
+}
+#checkup_pic {
+	max-width: 130px;
+	height: auto;
+	border-radius: 5px;
+}
+.up-image {
+	margin-bottom: 3%;
+}
+.edit-circle {
+	width: 12%;
+	height: auto;
+	position: relative;
+	left: 43%;
+	padding-bottom: 2%;
+	border-radius: 5%;
+}
+.lblforprint {
+	margin-bottom: 4px;
+}
+
+
+@media (max-width: 800px) {
+	#navtoggle {
+		display: none;
+	}
+	#tooglemobile {
+
+	}
+	.edit-circle {
+		width: 30%;
+		height: auto;
+		position: relative;
+		left: 32%;
+		padding-bottom: 5%;
+		padding-top: 10%;
+		border-radius: 5%;
+	}	
+	.btncust1 {
+		margin-left:15px;
+	}
+	.btncust {
+		margin-left: 5px;
+	}
+	.btnmarg {
+		margin-top: 0%;
+	}
+	.btncustsec {
+		margin-left: 5%;
+	}
+}
+@media (min-width: 801px) {
+	#tooglemobile {
+		display: none;
+	}
+
+}
+@media (max-width: 400px) {
+	body {
+		font-size: 14px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	.userPosition {	    
+	    right: 13px;	
+	}
+	.info-header {
+	    font-size: 20px;
+	    padding: 15px;
+	}
+	.info-queues {		
+		min-height: 185px;		
+		margin-bottom: 10px;
+	}
+	.info-calendar {	    
+	    min-height: 242px;
+	}
+	.info-fees {	    
+	    min-height: 185px;	    
+	    margin-bottom: 10px;
+	}
+	.info-total {	    
+	    min-height: 185px;	    
+	    margin-bottom: 10px;
+	}
+	.total-list {
+	    font-size: 25px;
+	    margin: 0px 4px 10px 120px;
+	}
+	.editprofile {
+        padding-top: 0px;
+	}
+	.checkup-text {		
+		position: absolute;
+		left: 125px;
+		top: -25px;
+	}
+	.docnote {
+	    width: 238px;	    
+	    margin-bottom: 2px;	    
+	}
+	.diagnote {
+		width: 100% !important;
+	}	
+	#topmarg {
+		padding-top:10%;
+	}
+	#hide_me {
+		display: none;
+	}
+	.edit-circle {
+		width: 35%;
+		height: auto;
+		position: relative;
+		left: 28%;
+		padding-bottom: 5%;
+		padding-top: 10%;
+		border-radius: 5%;
+	}
+	.editprofile {
+		padding-top: 8%;
+	}
+	.btncust {
+		margin-left:15px;
+	}
+	.btnmarg {
+		margin-top: 0%;
+	}
+	.btncust1 {
+		margin-left:15px;
+	}
+	footer {
+		font-size: 13px;
+	}
+	.btncustsec {
+		margin-left: 5%;
+	}
+}
+
+
+
+
